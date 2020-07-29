@@ -1,7 +1,7 @@
 hr {
     height: 0.5px;
     width: 25%;
-    background-color: black;
+    background-color: grey;
   }
 
 header{
@@ -10,6 +10,38 @@ header{
 
 a{ 
   color: #ffffff; 
+}
+
+.centrado{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.contenedor{
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+.texto-encima{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.textocentrado{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -90%);
+}
+
+.textocentrado2{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -10%);
 }
 
 /* transicion secciones */
@@ -36,6 +68,12 @@ html{
 .oswald700{
   font-family: 'Oswald', sans-serif;
   font-weight: 700;
+}
+
+.oswald700r{
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  font-size: 5vw;
 }
 
 .contenedorf{
