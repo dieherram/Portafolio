@@ -1,0 +1,62 @@
+hr {
+    height: 0.5px;
+    width: 25%;
+    background-color: black;
+  }
+
+header{
+  height: 100%;
+}
+
+a{ 
+  color: #ffffff; 
+}
+
+/* transicion secciones */
+html{
+  scroll-behavior: smooth;
+}
+
+/* fuentes */
+.open300{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
+.open400{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+.open600{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+}
+
+.oswald700{
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+}
+
+.contenedorf{
+    display: flex;
+    justify-content: center;
+}
+
+/* imagen fondo header */
+.bg{ 
+  /* The image used */
+  background-image: url("../img/header.JPG");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* colores */
+.colormut{
+  background-color: #00adb5;
+}
