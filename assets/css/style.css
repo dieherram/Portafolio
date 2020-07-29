@@ -81,19 +81,6 @@ html{
     justify-content: center;
 }
 
-/* imagen fondo header */
-.bg{ 
-  /* The image used */
-  background-image: url("../img/header.JPG");
-
-  /* Full height */
-  height: 100%; 
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 /* colores */
 .colormut{
   background-color: #00adb5;
